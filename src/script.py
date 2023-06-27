@@ -14,7 +14,7 @@ The script can be run from the command line using the following command:
 
 python script.py input_path 
 
-An example for the provided test is:
+An example for the provided test is: (OK we get it)
 
 python script.py data/test_data_liss_2_subjects.csv
 """
