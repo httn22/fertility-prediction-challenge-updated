@@ -53,12 +53,6 @@ def predict_outcomes(df):
     # prediction is represented as a binary value: '0' indicates that the
     # individual did not have a child during 2020-2022, while '1' implies that
     # they did.
-
-    # Keep 
-    keepcols = ['burgstat2019', 'leeftijd2019', 'woonvorm2019', 'oplmet2019', 'aantalki2019']
-    nomem_encr = df["nomem_encr"]
-    
-    df = df.loc[:, keepcols]
     
     # Load your trained model from the models directory
     model_path = os.path.join(os.path.dirname(__file__), "..", "models", "model.joblib")
